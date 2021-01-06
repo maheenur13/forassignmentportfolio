@@ -2,9 +2,10 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: cursive;
+    background-color: rgb(215, 234, 240);
 }
 nav{
-    /* border: 4px solid black; */
+    border: 1px solid black;
 }
 nav ul{
     display: flex;
@@ -100,6 +101,16 @@ nav ul li a{
      background-color: rgba(216, 57, 57, 0.849);
      border-radius: 5px;
      font-size: 14px;
+     /* width: 00px; */
+}
+.button:hover{
+    background-color: rgba(255, 59, 59, 0.849);
+    /* margin: 5px; */
+    /* letter-spacing: 1px; */
+    padding-top: 12px;
+    padding-bottom: 12px;
+    transition: .2s;
+    /* font-size: 15px; */
 }
 
 .first-section-right{
@@ -136,4 +147,104 @@ nav ul li a{
 }
 .second-section-texts p{
     padding-bottom: 30px;
+}
+.fas{
+    padding: 0px 5px 0px 5px;
+}
+
+
+.third-section{
+    background-color: rgb(182, 182, 182);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px 60px 0px;
+    /* border: 2px solid; */
+    /* width: 100%; */
+}
+.third-section-boxes{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+.third-section-text{
+    padding: 10px 10px 25px 10px;
+    /* border: 1px solid; */
+    margin: 15px;
+}
+.third-section-text h1{
+    font-family: 'Anton', sans-serif;
+    word-spacing: 10px;
+    font-size: 37px;
+    letter-spacing: 5px;
+}
+.third-section-text h1 span{
+    color: rgb(221, 96, 96) ;
+}
+.boxes{
+    background-color: rgb(218, 218, 218);
+    width: 350px;
+    /* border: 2px solid red; */
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 2px 2px 30px rgb(54, 54, 54);
+    padding: 15px 0px;
+}
+.boxes:hover{
+    margin-top: -3px;
+    transition: .3s;
+    margin-bottom: 3px;
+}
+.boxes img{
+    width: 85%;
+}
+.boxes h2{
+    color: rgb(18, 62, 131);
+    /* border: 1px solid; */
+     /* padding-left:10px ; */
+}
+.boxes p{
+    width: 85%;
+    /* border: 1px solid; */
+    font-family:serif;
+    text-align: justify;
+}
+
+
+.fourth-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skills-all-boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    width: 90%;
+}
+.skill-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    /* border: 1px solid; */
+    overflow: hidden;
+}
+.skill-box img{
+    width: 90%;
+    height: 200px;
+}
+.skill-box p{
+    width: 90%;
+    text-align: justify;
 }
