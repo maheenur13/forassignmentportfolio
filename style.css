@@ -119,14 +119,6 @@ nav ul li a {
     /* width: 00px; */
 }
 
-.button:hover {
-    background-color: rgba(255, 59, 59, 0.849);
-    padding-top: 12px;
-    padding-bottom: 12px;
-    transition: .2s;
-    /* font-size: 15px; */
-}
-
 .first-section-right {
     width: 30%;
     /* border: 2px solid; */
@@ -220,12 +212,6 @@ nav ul li a {
     padding: 15px 0px;
 }
 
-.boxes:hover {
-    margin-top: -3px;
-    transition: .3s;
-    margin-bottom: 3px;
-}
-
 .boxes img {
     width: 85%;
 }
@@ -280,12 +266,8 @@ nav ul li a {
     overflow: hidden;
     padding: 30px 0px 60px 0px;
     border-radius: 5px;
+    box-shadow: 3px 3px 30px rgb(0, 0, 0);
     /* box-shadow: 1px 1px 20px black; */
-}
-
-.skill-box:hover{
-    transition: .3s;
-    box-shadow: 5px 5px 30px rgb(0, 0, 0);
 }
 .skill-box img {
 
