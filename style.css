@@ -4,9 +4,6 @@ body{
     font-family: cursive;
     background-color: rgb(215, 234, 240);
 }
-nav{
-    border: 1px solid black;
-}
 nav ul{
     display: flex;
     justify-content: flex-end;
@@ -25,7 +22,7 @@ nav ul li a{
     /* color: white; */
     position: absolute;
     left: 40px;
-    font-size: 18px;
+    font-size: 21px;
     font-family: cursive;
     /* font-weight: 900px; */
 }
@@ -42,8 +39,6 @@ nav ul li a{
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
-    /* border: 20px solid yellow; */
-    /* margin: 50px 0px 10px 0px; */
     padding: 50px 0px 0px 0px;
 }
 .first-section-left{
@@ -221,7 +216,7 @@ nav ul li a{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-bottom: 50px;
+    padding-bottom: 120px;
     background-color: rgba(185, 185, 162, 0.801);
     /* background-color: rgb(255, 255, 255); */
 }
@@ -240,6 +235,7 @@ nav ul li a{
     /* border: 1px solid red; */
     justify-content: space-between;
     width: 90%;
+    /* padding-bottom: 310px; */
 }
 .skill-box{
     display: flex;
@@ -250,7 +246,7 @@ nav ul li a{
     background-color: rgba(204, 204, 179, 0.801);
     /* border: 1px solid; */
     overflow: hidden;
-    padding: 10px 0px 5px 0px;
+    padding: 30px 0px 60px 0px;
     border-radius: 5px;
     box-shadow: 1px 1px 20px black;
 }
@@ -261,6 +257,7 @@ nav ul li a{
     border-radius: 5px;
 }
 .skill-box p{
+    padding-top: 20px;
     color: rgb(32, 32, 32);
     width: 80%;
     font-size: 14px;
@@ -307,6 +304,7 @@ nav ul li a{
     display: flex;
     background-color:#b4c5ca;
     margin: auto;
+    padding-bottom: 70px;
     /* width: 100%; */
     /* border: 1px solid; */
     /* padding: 20px 10px; */
@@ -328,7 +326,7 @@ nav ul li a{
 .sixth-section{
     /* border: 1px solid; */
     padding: 100px 0px 80px 0px;
-    background-color: #B4C5CA;
+    /* background-color: #B4C5CA; */
 }
 
 .sixth-section-elements{
@@ -355,4 +353,26 @@ nav ul li a{
     padding: 20px 40px 20px 40px;
     background:linear-gradient(90deg,rgb(191, 48, 204),rgb(185, 11, 78));
     border-radius: 10px;
+}
+footer{
+    padding: 40px 0px 40px 0px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    /* line-height: 10px; */
+}
+footer h3{
+    /* border: 1px solid; */
+    color: rgb(7, 100, 57);
+    /* font-weight: 700; */
+}
+footer h1{
+    /* border: 1px solid; */
+    color: rgb(194, 53, 18);
+}
+.social-icons a i{
+    font-size: 22px;
+    padding:5px;
+    color: black;
 }
